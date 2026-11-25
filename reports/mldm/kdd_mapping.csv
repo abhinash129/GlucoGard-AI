@@ -1,0 +1,6 @@
+KDD stage,What was done,Files
+1. Selection,"Choose data and targets: Pima, BRFSS 2015, APTOS 2019, HUPA-UCM; targets are the diabetes label, a complication proxy, the retinopathy grade and future glucose","inspect_data.py, preprocess.py"
+2. Pre-processing,"Zeros as missing values, median imputation, outlier checks, class balancing (SMOTE, undersampling), image cleaning, removal of CGM gaps","preprocess.py, aptos_data.py, cgm_data.py, eda.py"
+3. Transformation,"Standardisation, Ben Graham image contrast, 18-step CGM windows, age bands, probability-to-level conversion","train_classical.py, aptos_data.py, cgm_data.py, pipeline.py"
+4. Data mining,"Classification, regression, clustering, association rules, ensembles, neural networks, sequence models","train_classical.py, linear_regression.py, kmeans_phenotypes.py, train_mlp.py, train_cnn.py, train_lstm.py, clustering_suite.py, association.py, ensembles.py"
+5. Interpretation and evaluation,"Recall, F1, ROC-AUC, kappa, RMSE; ablation; rule-based explanations; dashboard","ablation.py, app.py, reports/"

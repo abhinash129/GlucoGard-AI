@@ -1,0 +1,32 @@
+dataset,column,data type,scale,distinct,missing,min,max,mean
+Pima,Pregnancies,discrete count,ratio,17,0,0.0,17.0,3.85
+Pima,Glucose,continuous numeric,ratio,135,5,44.0,199.0,121.69
+Pima,BloodPressure,continuous numeric,ratio,46,35,24.0,122.0,72.41
+Pima,SkinThickness,continuous numeric,ratio,50,227,7.0,99.0,29.15
+Pima,Insulin,continuous numeric,ratio,185,374,14.0,846.0,155.55
+Pima,BMI,continuous numeric,ratio,247,11,18.2,67.1,32.46
+Pima,DiabetesPedigreeFunction,continuous numeric,ratio,517,0,0.08,2.42,0.47
+Pima,Age,continuous numeric,ratio,52,0,21.0,81.0,33.24
+Pima,Outcome,binary target,nominal,2,0,0.0,1.0,0.35
+BRFSS,HighBP,binary,nominal,2,0,0.0,1.0,0.43
+BRFSS,HighChol,binary,nominal,2,0,0.0,1.0,0.42
+BRFSS,CholCheck,binary,nominal,2,0,0.0,1.0,0.96
+BRFSS,BMI,continuous numeric,ratio,84,0,12.0,98.0,28.38
+BRFSS,Smoker,binary,nominal,2,0,0.0,1.0,0.44
+BRFSS,Stroke,binary,nominal,2,0,0.0,1.0,0.04
+BRFSS,HeartDiseaseorAttack,binary,nominal,2,0,0.0,1.0,0.09
+BRFSS,PhysActivity,binary,nominal,2,0,0.0,1.0,0.76
+BRFSS,Fruits,binary,nominal,2,0,0.0,1.0,0.63
+BRFSS,Veggies,binary,nominal,2,0,0.0,1.0,0.81
+BRFSS,HvyAlcoholConsump,binary,nominal,2,0,0.0,1.0,0.06
+BRFSS,AnyHealthcare,binary,nominal,2,0,0.0,1.0,0.95
+BRFSS,NoDocbcCost,binary,nominal,2,0,0.0,1.0,0.08
+BRFSS,GenHlth,ordinal,ordinal,5,0,1.0,5.0,2.51
+BRFSS,MentHlth,discrete count,ratio,31,0,0.0,30.0,3.18
+BRFSS,PhysHlth,discrete count,ratio,31,0,0.0,30.0,4.24
+BRFSS,DiffWalk,binary,nominal,2,0,0.0,1.0,0.17
+BRFSS,Sex,binary,nominal,2,0,0.0,1.0,0.44
+BRFSS,Age,ordinal,ordinal,13,0,1.0,13.0,8.03
+BRFSS,Education,ordinal,ordinal,6,0,1.0,6.0,5.05
+BRFSS,Income,ordinal,ordinal,8,0,1.0,8.0,6.05
+BRFSS,Diabetes_binary,binary target,nominal,2,0,0.0,1.0,0.14

@@ -1,0 +1,16 @@
+dataset,column,skewness,excess kurtosis
+Pima,Pregnancies,0.9,0.15
+Pima,Glucose,0.53,-0.28
+Pima,BloodPressure,0.13,0.9
+Pima,SkinThickness,0.69,2.9
+Pima,Insulin,2.16,6.27
+Pima,BMI,0.59,0.85
+Pima,DiabetesPedigreeFunction,1.92,5.55
+Pima,Age,1.13,0.63
+BRFSS,BMI,2.12,11.0
+BRFSS,GenHlth,0.42,-0.38
+BRFSS,MentHlth,2.72,6.44
+BRFSS,PhysHlth,2.21,3.5
+BRFSS,Age,-0.36,-0.58
+BRFSS,Education,-0.78,0.04
+BRFSS,Income,-0.89,-0.28

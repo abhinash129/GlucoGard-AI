@@ -1,0 +1,5 @@
+min support,frequent itemsets,Apriori (s),FP-growth (s),Eclat (s),identical results
+0.2,171,0.082,10.6577,0.007,True
+0.1,572,0.1496,35.8955,0.0051,True
+0.06,1039,0.1494,64.514,0.0067,True
+0.04,1531,0.3066,102.9468,0.0175,True

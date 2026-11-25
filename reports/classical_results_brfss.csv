@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1,roc_auc
+LogisticRegression,0.732,0.311,0.763,0.442,0.819
+DecisionTree,0.685,0.277,0.784,0.41,0.8
+KNN,0.699,0.286,0.774,0.418,0.796

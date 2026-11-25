@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1,roc_auc
+Perceptron,0.617,0.369,0.597,0.456,0.639
+LogisticRegression,0.667,0.425,0.671,0.52,0.736
+MLP,0.649,0.411,0.703,0.519,0.736

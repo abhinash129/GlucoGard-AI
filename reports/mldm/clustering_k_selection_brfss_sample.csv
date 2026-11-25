@@ -1,0 +1,16 @@
+method,k,silhouette,Davies-Bouldin,Calinski-Harabasz
+k-means,2,0.2153,2.4752,258.0447
+k-means,3,0.0881,2.8974,197.0355
+k-means,4,0.0951,2.5366,178.8892
+k-means,5,0.0919,2.4684,162.0614
+k-means,6,0.1047,2.2397,157.5277
+Hierarchical (ward),2,0.1661,3.0667,193.0442
+Hierarchical (ward),3,0.1786,2.5224,160.8203
+Hierarchical (ward),4,0.1807,2.3401,150.6974
+Hierarchical (ward),5,0.1826,2.2252,145.5781
+Hierarchical (ward),6,0.1849,2.1073,144.1269
+"k-medoids (PAM, Manhattan)",2,0.1006,3.2292,172.5196
+"k-medoids (PAM, Manhattan)",3,0.0865,3.0726,165.9738
+"k-medoids (PAM, Manhattan)",4,0.0654,3.1495,133.9498
+"k-medoids (PAM, Manhattan)",5,0.0493,3.4702,112.7936
+"k-medoids (PAM, Manhattan)",6,0.039,3.2407,102.3209

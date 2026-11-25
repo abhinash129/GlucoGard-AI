@@ -1,0 +1,4 @@
+model,RMSE_30min,MAE_30min,RMSE_avg,hypo_recall,hypo_precision,hyper_recall,hyper_precision
+Persistence,19.755,13.573,12.412,0.699,0.697,0.83,0.83
+Ridge,15.98,11.109,9.567,0.653,0.775,0.858,0.878
+LSTM,14.647,9.892,8.474,0.684,0.82,0.86,0.899

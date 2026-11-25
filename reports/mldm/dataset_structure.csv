@@ -1,0 +1,5 @@
+dataset,structure,content,target
+Pima,"tabular, 768 records",8 numeric measurements,binary diabetes outcome
+BRFSS 2015,"tabular, 253,680 records","binary, ordinal and count survey items",binary diabetes label
+APTOS 2019,"images (unstructured), 3,662 files",fundus photographs,ordinal grade 0-4
+HUPA-UCM,"time series, 5-minute steps, 25 patients","glucose, insulin, carbohydrates, steps, heart rate, calories",future glucose (numeric)

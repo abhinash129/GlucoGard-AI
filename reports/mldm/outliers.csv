@@ -1,0 +1,16 @@
+dataset,column,lower fence,upper fence,IQR outliers,% of rows,|z| > 3
+Pima,Pregnancies,-6.5,13.5,4,0.52,4
+Pima,Glucose,36.0,204.0,0,0.0,0
+Pima,BloodPressure,40.0,104.0,14,1.91,8
+Pima,SkinThickness,1.0,57.0,3,0.55,2
+Pima,Insulin,-94.38,360.62,24,6.09,8
+Pima,BMI,13.85,50.25,8,1.06,4
+Pima,DiabetesPedigreeFunction,-0.33,1.2,29,3.78,11
+Pima,Age,-1.5,66.5,9,1.17,5
+BRFSS,BMI,13.5,41.5,9847,3.88,2963
+BRFSS,GenHlth,0.5,4.5,12081,4.76,0
+BRFSS,MentHlth,-3.0,5.0,36208,14.27,12697
+BRFSS,PhysHlth,-4.5,7.5,40949,16.14,0
+BRFSS,Age,0.0,16.0,0,0.0,0
+BRFSS,Education,1.0,9.0,0,0.0,4217
+BRFSS,Income,0.5,12.5,0,0.0,0

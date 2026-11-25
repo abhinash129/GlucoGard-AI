@@ -1,0 +1,16 @@
+model,step,pre-processing,ROC-AUC,AUC std,recall,F1
+Logistic Regression,1,"raw (zeros kept, no scaling)",0.8301,0.0225,0.5674,0.6333
+Logistic Regression,2,"+ zeros as missing, median imputation",0.8367,0.0209,0.5711,0.6376
+Logistic Regression,3,+ standardisation,0.8365,0.0203,0.5711,0.6371
+Logistic Regression,4,+ outlier clipping (IQR),0.8395,0.017,0.5934,0.645
+Logistic Regression,5,+ SMOTE,0.8396,0.0176,0.7461,0.6884
+KNN (k=15),1,"raw (zeros kept, no scaling)",0.7945,0.0289,0.5483,0.6073
+KNN (k=15),2,"+ zeros as missing, median imputation",0.7989,0.0298,0.5708,0.6039
+KNN (k=15),3,+ standardisation,0.8136,0.0147,0.5672,0.6142
+KNN (k=15),4,+ outlier clipping (IQR),0.8139,0.0179,0.5783,0.6182
+KNN (k=15),5,+ SMOTE,0.8079,0.0158,0.7686,0.653
+Decision Tree,1,"raw (zeros kept, no scaling)",0.8009,0.0201,0.567,0.6094
+Decision Tree,2,"+ zeros as missing, median imputation",0.8008,0.0243,0.5708,0.6019
+Decision Tree,3,+ standardisation,0.8008,0.0243,0.5708,0.6019
+Decision Tree,4,+ outlier clipping (IQR),0.8078,0.0304,0.5893,0.6183
+Decision Tree,5,+ SMOTE,0.7893,0.0391,0.8023,0.676
